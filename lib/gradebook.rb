@@ -23,4 +23,10 @@ class GradeBook
       puts "Course not available"
     end
   end
+
+    def students_below(threshhold)
+      below_threshold_students =[]
+      @list_all_students.each do |course, students_names|
+        
+    end
 end
