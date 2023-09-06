@@ -3,6 +3,7 @@ require './lib/student'
 
 RSpec.describe Student do
   it "exists" do
+    student = Student.new({name: "Morgan", age: 21}) 
     morgan = Student.new({name: "Morgan", age: 21})
     expect(morgan).to be_instance_of(Student)
   end
